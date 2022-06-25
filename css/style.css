@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+/*Area de logo*/
+.logo{
+    margin: 2em;
+}
+
+/********************************************************************/
+/*botones*/
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.botones input{
+    align-self: center;
+    border-radius: 1.3em;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em 2em;
+}
+.azul{
+    background-color: #0a3f7f;
+    color: azure;
+    border: 0.1em solid black; 
+}
+.blanco{
+    color:#0A3871;
+    border: 0.1em solid #0A3871;
+}
+/*pantallas*/
+.pantallas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+/*primera pantalla*/
+.pantalla-uno {
+    display: block;
+}
+.pantalla-uno .azul{
+    padding: 3em 6em;
+}
+/*segunda pantalla*/
+.pantalla-dos{
+    display: none;
+
+    width: 60%;
+    height: 90%;
+}
+.pantalla-dos .palabra-escrita{
+    height: 70%;
+    text-align: center;
+    
+}
+.pantalla-dos .palabra-escrita input{
+    width: 70%;
+    font-size: 2em;
+    
+    border: 0;
+}
+.pantalla-dos .botones{
+    flex-direction: row;
+    justify-content: center;
+}
+.pantalla-dos .botones .azul{
+    width: 40%;
+    
+}
+.pantalla-dos .botones .blanco{
+    width: 40%;
+   
+}
+.pantalla-dos .alerta{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+/*tercera pantalla*/
+.pantalla-tres{
+    display: none;
+
+    width: 60%;
+    height: 100%;
+}
+.pantalla-tres .area-dibujo{
+    height: 70%;
+    
+}
+.pantalla-tres .letras{
+    height: 20%;
+    text-align: center ;
+}
+.pantalla-tres .escritura{
+    height: 50%;
+}
+.pantalla-tres .letras .escritura-ingresadas span{
+    margin-top: 1em;
+    border-bottom: none;
+    font-size: 1.1em;
+    color: #6c6c6c;
+}
+
+.pantalla-tres .botones{
+    flex-direction: row;
+    justify-content: center;
+}
+.pantalla-tres .botones .azul{
+    width: 40%;  
+}
+.pantalla-tres .botones .blanco{
+    width: 40%; 
+}
+
+.contenedor-canvas{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+/*span*/
+
+span{
+    display: inline-block;
+    border-bottom: 2px solid #0A3871;
+    font-size: 1.6em;
+    width: 1.5em;
+    margin-right: 0.5em;
+    text-align: center;
+    vertical-align: bottom;
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
